@@ -6,7 +6,8 @@ const Person = {
     name: "Trevor",
     eyeColor: "blue",
     hairColor: "red",
-    role: "Professor"
+    role: "Professor",
+    pic: "olaf.jpeg"
 }
 
 export default Person;
