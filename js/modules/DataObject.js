@@ -6,29 +6,25 @@ const Team = {
     
     Trevor: {
         name: "Trevor",
-        eyeColor: "blue",
-        hairColor: "red",
+        bio: "I don't know where i am... can you please take me home",
         role: "Professor",
         pic: "olaf.jpeg"},
 
     Joe: {
         name: "Joe",
-        eyeColor: "brown",
-        hairColor: "greyish",
+        bio: "I love hunny",
         role: "Professor",
         pic: "pooh.jpeg"},
 
     Jarrod: {
         name: "Jarrod",
-        eyeColor: "brown",
-        hairColor: "blonde",
+        bio: "I have more than one look",
         role: "Professor",
         pic: "zoolander.jpg"},
 
     Justin: {
         name: "Justin",
-        eyeColor: "brown",
-        hairColor: "kind of an evil black",
+        bio: "",
         role: "Coordinator",
         pic: "justin.jpeg"},
 }

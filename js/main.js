@@ -17,7 +17,9 @@ import People from "./modules/DataObject.js";
         // this refers to the paragraph tag (the second child of the bio-wrapper div)
         bioInfo[1].textContent = People[currentProf].role;
 
-        bioInfo[2].src = `images/${People[currentProf].pic}`;
+        bioInfo[2].textContent = People[currentProf].bio;
+
+        bioInfo[3].src = `images/${People[currentProf].pic}`;
     }
 
     for (let prof in People) {
